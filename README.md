@@ -1,5 +1,4 @@
 # PerfectGym
-E-commerce
 Proyecto de un E-commerce de un Gimnasio "PerfectGym" hecho a base de :
 - Html
 - Css

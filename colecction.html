@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/collectionJs/css/collection.css">
+  <script src="https://kit.fontawesome.com/fb934c4899.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <title>Collection</title>
+</head>
+<body class="body">
+  <div class="container__collection">
+    <header class="header__collection">
+      <div>
+        <a href="index.html">
+          <h2 class="sub__title">Perfect Gym</h2>
+        </a>
+      </div>
+      <div>
+        <ul class="header__list d-flex justify-content-center align-items-center gap-5">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Collection</a></li>
+          <li><a href="shoppBuy.html">Shop</a></li>
+          <li><a href="#">Include Pages</a></li>
+        </ul>
+      </div>
+      <div class="header__icons text-white d-flex gap-4 justify-content-center align-items-center">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-regular fa-user"></i>
+        <i class="fa-solid fa-bag-shopping"></i>
+        <div class="header__icons2">
+          <div id="OpenMenu">
+            <i class="fas fa-bars icon"></i>
+            <div class="sliderMenu__content">
+               <div class="sliderMenu">
+                 <div class="sliderMenu__text">
+                   <div class="slider__menu-title">Perfect Gym 💪</div>
+                   <div id="closeMenu"><i class="fas fa-bars icon"></i>
+                   </div>
+                 </div>
+                 <div class="sliders">
+                  <div class="side__navigation">
+                    <a href="/index.html">
+                      <p>Home</p>
+                    </a>
+                  </div>
+                  <div class="side__navigation">
+                    <a href="/shoppBuy.html">
+                      <p>Shop</p>
+                    </a>
+                  </div>
+                  <div class="side__navigation">
+                    <a href="/index.html">
+                      <p>Collection</p>
+                    </a>
+                  </div>
+                 </div>
+                </div>
+                <div class="sliders2">
+                 <div class="side__navigation">
+                   <a href="/index.html">
+                     <p>Omar Ruiz</p>
+                   </a>
+                 </div>
+                </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="row mt-5">
+      <div class="col-lg-3">
+        <div class="shopify-section">
+          <div class="column__categories">
+            <p class="column__title text-black">Shop By Categories</p>
+            <div class="column__items">
+              <div>
+                <div class="dumbels-container">
+                  <div class="dumbels d-flex justify-content-between">
+                    <div>Dumbbells</div>
+                    <span>></span>
+                  </div>
+                  <div class="dumbels-text mt-2">
+                    <ol>
+                      <li>
+                        <div>pulleys</div>
+                      </li>
+                      <li>
+                        <div>pull up bars</div>
+                      </li>
+                      <li>
+                        <div>lat pull down</div>
+                      </li>
+                      <li>
+                        <div>leg extension</div>
+                      </li>
+                    </ol>
+                  </div>
+                </div>            
+              </div>
+              <div class="dumbels-container">
+                <div class="dumbels d-flex justify-content-between">
+                  <div>Running</div>
+                  <span>></span>
+                </div>
+                <div class="dumbels-text mt-1">
+                  <ol>
+                    <li>
+                      <div>dipping bars</div>
+                    </li>
+                    <li>
+                      <div>leg curl</div>
+                    </li>
+                    <li>
+                      <div>preacher bench</div>
+                    </li>
+                    <li>
+                      <div>press machine</div>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+              <div class="dumbels-container">
+                <div class="dumbels d-flex justify-content-between">
+                  <div>Rope Pull</div>
+                  <span>></span>
+                </div>
+                <div class="dumbels-text mt-1">
+                  <ol>
+                    <li>
+                      <div>pulleys</div>
+                    </li>
+                    <li>
+                      <div>pull up bars</div>
+                    </li>
+                    <li>
+                      <div>lat pull down</div>
+                    </li>
+                    <li>
+                      <div>leg extension</div>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column__filter mt-4">
+            <p class="filter text-black">Filter by</p>
+            <button class="btn">clear all</button>
+            <form class="column_form mt-2">
+              <input type="checkbox">
+              <label for="" class="checkbox">In stock</label>
+            </form>
+            <form class="column_form pb-3">
+              <input type="checkbox">
+              <label for="" class="checkbox">Out of stock</label>
+            </form>
+            <div class="column__price">
+              <p class="text-black">Price</p>
+              <form  method="post">
+                <label for="amount1">$:</label>
+                <input type="text" id="amount1" name="amount1" placeholder="From">
+            
+                <label for="amount2">$:</label>
+                <input type="text" id="amount2" name="amount2" placeholder="To">
+            </form>
+            </div>
+            <div class="column__color">
+              <p class="text-black">Color</p>
+              <div class="colors d-flex gap-3 mt-2">
+                <div class="circle" style="background-color: antiquewhite;"></div>
+                <div class="circle" style="background-color: aqua;"></div>
+                <div class="circle" style="background-color: aquamarine;"></div>
+                <div class="circle" style="background-color: blueviolet;"></div>
+                <div class="circle" style="background-color: bisque;"></div>
+                <div class="circle" style="background-color: brown;"></div>
+              </div>
+              <div class="colors d-flex gap-3 mt-2">
+                <div class="circle" style="background-color: rgb(205, 128, 27);"></div>
+                <div class="circle" style="background-color: rgb(31, 206, 206);"></div>
+                <div class="circle" style="background-color: aquamarine;"></div>
+                <div class="circle" style="background-color: rgb(76, 38, 112);"></div>
+                <div class="circle" style="background-color: rgb(229, 222, 213);"></div>
+                <div class="circle" style="background-color: rgb(237, 13, 13);"></div>
+              </div>
+            </div>
+            <div class="column__size mt-3">
+              <p class="size__text mt-2 text-black">Size</p>
+              <div class="sizes d-flex justify-content-start gap-3">
+                <div class="size text-black">S</div>
+                <div class="size text-black">M</div>
+                <div class="size text-black">L</div>
+                <div class="size text-black">XL</div>
+              </div>
+            </div>
+          </div>
+          <div class="column__product mt-4">
+            <p class="product__title text-black">New Product</p>
+            <div class="product__description d-flex">
+              <div>
+                <img src="./images/grid-image2.webp" alt="" width="100">
+              </div>
+              <div>
+                <p>Weight Plate Stand</p>
+                <p>$100.00 $70.00</p>
+                <i class="fa-solid fa-star" style="color: #fec42d;"></i>
+                <i class="fa-solid fa-star" style="color: #fec42d;"></i>
+                <i class="fa-solid fa-star" style="color: #fec42d;"></i>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+              </div>
+            </div>
+            <div class="product__description d-flex mt-4">
+              <div>
+                <img src="./images/product2.webp" alt="" width="100">
+              </div>
+              <div>
+                <p>Weight Plate Stand</p>
+                <p>$60.00 $40.00</p>
+                <i class="fa-solid fa-star" style="color: #fec42d;"></i>
+                <i class="fa-solid fa-star" style="color: #fec42d;"></i>
+                <i class="fa-solid fa-star" style="color: #fec42d;"></i>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+              </div>
+            </div>
+            <div class="product__description d-flex mt-4">
+              <div>
+                <img src="./images/product1.webp" alt="" width="100">
+              </div>
+              <div class="marginB">
+                <p>Weight Plate Stand</p>
+                <p>$90.00 $80.00</p>
+                <i class="fa-solid fa-star" style="color: #fec42d;"></i>
+                <i class="fa-solid fa-star" style="color: #fec42d;"></i>
+                <i class="fa-solid fa-star" style="color: #fec42d;"></i>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+              </div>
+            </div>
+          </div>
+          <div class="arrivals mt-4">
+            <img src="/images/arrivals.webp" alt="" width="307">
+          </div>
+          <div class="column__product mt-4">
+            <p class="product__title text-black">Special Product</p>
+            <div class="product__description d-flex">
+              <div>
+                <img src="./images/especial.webp" alt="" width="100">
+              </div>
+              <div>
+                <p>Weight Plate Stand</p>
+                <p>$60.00 $50.00</p>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+              </div>
+            </div>
+            <div class="product__description d-flex mt-4">
+              <div>
+                <img src="./images/product2.1.webp" alt="" width="100">
+              </div>
+              <div>
+                <p>Weight Plate Stand</p>
+                <p>$19.00 $15.00</p>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+              </div>
+            </div>
+            <div class="product__description d-flex mt-4">
+              <div>
+                <img src="./images/especial2.webp" alt="" width="100">
+              </div>
+              <div class="marginB">
+                <p>Weight Plate Stand</p>
+                <p>$35.00 $30.00</p>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(149, 157, 164);"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="norma_main_content col-lg-9 text-white">
+        <p>"Perfect Gym"</p>
+        <div>
+          <p class="norma_main__text">"Camiseta sin mangas, ideal para entrenamientos 
+            intensos. Tejido transpirable para máximo confort. Eleva tu
+            estilo con nuestra indumentaria exclusiva. Combínala con 
+            leggings premium para un look impecable. ¡Libera tu 
+            entrenamiento perfecto, libera tu yo perfecto!"
+          </p>
+        </div>
+        <div>
+          <p>"Espacio dedicado a tu bienestar. Ambiente inspirador, equipos
+            de vanguardia. Clases personalizadas, entrenadores comprometidos. Descubre la excelencia en cada sesión. ¡Tu transformación comienza aquí"
+          </p>
+        </div>
+        <div>
+          <img class="image__arrivals" src="/images/trendy.webp" alt="" width="969">
+        </div>
+        <div class="text__container mt-3">
+          <p class="text__title">Showing Products</p>
+        </div>
+        <section class="products" id="productos"></section>
+        <template id="producto-template">
+          <figure class="product" id="product">
+           <img src="" alt="" id="image">
+           <div class="grid__icons" id="grid__icons">
+            <i id="" class="fa-solid fa-eye icon1"></i>
+            <i id="" class="fa-regular fa-heart icon2"></i>
+          </div>
+          <figcaption></figcaption>
+          </figure>
+        </template>
+      </div>
+    </div>
+    <footer class="bordertop mt-lg-5">
+      <div class="mt-5 text-center">
+        <div >
+          <h2 class="sub__title">Perfect Gym</h2>
+        </div>
+        <div class="footer__line mb-lg-5">
+          <ul class="footer__links-container d-flex justify-content-center align-items-center gap-lg-3  mt-lg-5 mb-lg-5">
+            <li><a class="footer__links" href="#">Home</a></li>
+            <li><a class="footer__links fs-5" href="#">-</a></li>
+            <li><a class="footer__links" href="#">About us</a></li>
+            <li><a class="footer__links fs-5" href="#">-</a></li>
+            <li><a class="footer__links" href="#">Price Drop</a></li>
+            <li><a class="footer__links fs-5" href="#">-</a></li>
+            <li><a class="footer__links" href="#">Specials</a></li>
+            <li><a class="footer__links fs-5" href="#">-</a></li>
+            <li><a class="footer__links" href="#">Contact Us</a></li>
+            <li><a class="footer__links fs-5" href="#">-</a></li>
+          </ul>
+          <ul class="d-flex justify-content-center align-items-center gap-4">
+            <li><a class="footer__links" href="#">Our teams</a></li>
+            <li><a class="footer__links fs-5" href="#">-</a></li>
+            <li><a class="footer__links" href="#">Secure payments</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="/collectionJs/slider.js"></script>
+  <script type="module" src="/collectionJs/collection.js"></script>
+</body>
+</html>
+
